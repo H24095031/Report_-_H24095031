@@ -1,0 +1,65 @@
+---
+title: "Final_Statistics"
+author: "H24095031"
+date: "2025-01-06"
+output:
+  pdf_document:
+    latex_engine: xelatex
+
+---
+
+# Trends, Interventions, and Correlations in Disease Dynamics Over Time
+
+
+### These plots below were provided by Excel tools, therefore no QMD code provided
+## Temporal Pattern Analysis
+
+
+![Trend of Positive Cases]("Trend of Positive Cases.png")
+![Seasonal Positive case]("Seasonal Positive case.png")
+From the plot, it is clear that there is a seasonal pattern, with cases peaking around the same time each year. This suggests that external factors, such as weather, may influence the trends. For instance, mid-season increases in rainfall create stagnant water, which serves as breeding grounds for mosquitoes—key vectors for diseases like dengue or malaria. Warmer temperatures and high humidity during certain seasons may further accelerate mosquito reproduction and activity, increasing transmission rates.
+
+
+## Seasonal Trends for the Breteau Index (BI) and Container Index (CI)
+![Seasonal CI]("Seasonal BI.png")
+![Seasonal CI]("Seasonal CI.png")
+From the Breteau Index and Container Index, we can observe a clear seasonal pattern, with both indices showing an increasing trend in their seasonal components from early to mid-year. This suggests that conditions favorable for mosquito breeding, such as increased rainfall or rising temperatures, tend to occur more frequently during this period.
+
+The Breteau Index, which measures the number of positive mosquito habitats per surveyed area, and the Container Index, which indicates the percentage of water-holding containers with mosquito larvae, both reflect heightened mosquito activity and breeding during this time. These patterns align with the seasonal rise in positive cases, emphasizing the need for intensified vector control measures and surveillance efforts in the early months of the year to mitigate the impact of outbreaks.
+
+## Yearly Container Index
+![Yearly Plot]("Yearly Plot.png")
+Interventions Seem Effective:
+The overall decline observed in the Breteau Index (BI) and Container Index (CI), coupled with a reduction in the number of positive cases, suggests that the implemented interventions are having a significant impact. Measures such as eliminating mosquito breeding sites, raising public awareness, and improving vector control strategies appear to be effective in disrupting the transmission cycle and reducing the disease burden over time.
+
+Assumption:
+It is assumed that the Container Index (CI) has a stronger correlation with positive cases compared to the Breteau Index (BI). This could be due to the CI specifically measuring the proportion of water-holding containers with mosquito larvae, which directly represents the density of breeding habitats. Since positive cases are likely more sensitive to changes in the availability of breeding sites, the CI might better capture the direct environmental conditions that lead to increased transmission. In contrast, the BI aggregates data across a larger area, potentially diluting its correlation with case numbers. Further statistical analysis would be needed to confirm this relationship.
+
+
+## Correlation Matrix
+![Correlation_matrix]("Correlation_matrix.png")
+![Comparison of positive cases and container indices over time]("comparison of positive cases and container indices over time.png")
+Strategic Planning:
+Public health programs should prioritize reducing container infestation rates (CI) as a core focus of intervention efforts. CI provides a direct measure of the proportion of water-holding containers with mosquito larvae, making it a more actionable target compared to the Breteau Index (BI), which reflects broader mosquito habitat density in relation to surveyed households. By targeting the sources of infestation, such as eliminating or treating containers where larvae are detected, resources can be used more efficiently to disrupt mosquito breeding and reduce transmission risks.
+
+Risk Assessment:
+High CI values are strongly indicative of increased disease transmission risk, as they reflect concentrated mosquito breeding activity. This makes CI a critical indicator for early warning systems, enabling public health authorities to identify and prioritize high-risk areas for immediate intervention. Regular monitoring of CI can also serve as a predictive tool, allowing for proactive deployment of vector control measures before seasonal case surges occur.
+
+
+## Relative Risk Plot Addition
+![Relative risk Additional for 2016]("merge 2016.png")
+![Relative risk Additional for 2017]("merge 2017.png")
+![Relative risk Additional for 2018]("merge 2018.png")
+![Relative risk Additional for 2019]("merge 2019.png")
+![Relative risk Additional for 2020]("merge 2020.png")
+![Relative risk Additional for 2021]("merge 2021.png")
+![Relative risk Additional for 2022]("merge 2022.png")
+![Relative risk Additional for 2023]("merge 2023.png")
+![Relative risk Additional for 2024]("merge 2024.png")
+
+
+
+
+
+
+
